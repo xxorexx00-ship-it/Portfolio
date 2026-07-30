@@ -40,7 +40,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '自作ツール「Loop Learning」を紹介する単独のWebページ。JavaScript実装の授業の一環として制作。',
     thumbnail: 'images/works/loop-learning-showcase.svg',
-    previewUrl: '../../../works/web-design/LoopLearning-showcase/index.html',
+    previewUrl: '/works/web-design/LoopLearning-showcase/index.html',
     localReady: false,
   },
   {
@@ -63,7 +63,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '家具、インテリアをテーマにした商品紹介風サイト。グリッドレイアウトで可変的な空間を表現。',
     thumbnail: 'images/works/grid-layout.svg',
-    previewUrl: '../../../works/web-design/grid-layout/index.html',
+    previewUrl: '/works/web-design/grid-layout/index.html',
     localReady: false,
   },
   {
@@ -74,7 +74,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '音楽レッスンをテーマにした架空のスクール紹介サイト。',
     thumbnail: 'images/works/music-lessons.svg',
-    previewUrl: '../../../works/web-design/music-lessons/index.html',
+    previewUrl: '/works/web-design/music-lessons/index.html',
     localReady: false,
   },
     {
@@ -85,7 +85,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: 'クリップパス、ファビコン課題の習作',
     thumbnail: 'images/works/music-lessons.svg',
-    previewUrl: '../../../works/web-design/clippath/index.html',
+    previewUrl: '/works/web-design/clippath/index.html',
     localReady: false,
   },
   {
@@ -96,7 +96,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '幕末・会津藩の白虎隊をテーマにした歴史解説サイト。和風デザインとアニメーションで当時の世界観を表現。',
     thumbnail: 'images/works/byakkotai.svg',
-    previewUrl: '../../../works/web-design/byakkotai/index.html',
+    previewUrl: '/works/web-design/byakkotai/index.html',
     localReady: false,
   },
 
