@@ -51,7 +51,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '「ジョジョの奇妙な冒険」の名言を紹介する架空のファンサイト。世界観を意識したビジュアル表現に挑戦。',
     thumbnail: 'images/works/jojo-fansite.svg',
-    previewUrl: '../../../works/web-design/jojo-fansite/index.html',
+    previewUrl: '/works/web-design/jojo-fansite/index.html',
     localReady: false,
   },
 
