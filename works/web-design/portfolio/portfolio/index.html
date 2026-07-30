@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hiroshi のポートフォリオ。Webマーケティング20年の経験とエンジニアリングを掛け合わせた作品を掲載しています。" />
+  <meta property="og:title" content="Hiroshi's Story | Portfolio" />
+  <meta property="og:description" content="Webマーケティング20年の経験 × エンジニアリング。制作物をまとめたポートフォリオです。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Hiroshi's Story | Portfolio</title>
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animation.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- ==================== Navigation ==================== -->
+  <header class="nav" id="nav" role="banner">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__logo" aria-label="トップへ戻る">H.</a>
+      <button class="nav__hamburger" id="navHamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav__menu" id="navMenu" role="navigation" aria-label="メインナビゲーション">
+        <ul class="nav__list">
+          <li><a href="#works" class="nav__link">Works</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ==================== Hero ==================== -->
+    <section class="hero" id="hero" aria-label="ヒーロー">
+      <div class="hero__inner container">
+        <p class="hero__eyebrow reveal">WEB DEVELOPER &amp; MARKETER</p>
+        <h1 class="hero__title reveal">Hiroshi's<br>Story</h1>
+        <p class="hero__sub reveal">20年のマーケティング経験 × エンジニアリング</p>
+        <a href="#works" class="btn btn--primary reveal" aria-label="作品一覧を見る">View Works</a>
+      </div>
+      <a href="#works" class="hero__scroll" aria-label="下にスクロール">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-text">scroll</span>
+      </a>
+    </section>
+
+    <!-- ==================== Works ==================== -->
+    <section class="works" id="works" aria-label="作品一覧">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Works</h2>
+          <p class="section-sub">制作物</p>
+        </div>
+
+        <!-- Filter -->
+        <div class="filter" id="filter" role="group" aria-label="カテゴリフィルター">
+          <button class="filter__btn is-active" data-filter="all" aria-pressed="true">All</button>
+          <!-- JS で動的生成 -->
+        </div>
+
+        <!-- Cards Grid -->
+        <ul class="works__grid" id="worksGrid" aria-label="作品カード一覧">
+          <!-- JS で動的生成 -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== About ==================== -->
+    <section class="about" id="about" aria-label="自己紹介">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">About</h2>
+          <p class="section-sub">自己紹介</p>
+        </div>
+        <div class="about__inner">
+          <div class="about__photo reveal">
+            <div class="about__photo-placeholder" aria-label="プロフィール写真">
+              <span>Photo</span>
+            </div>
+          </div>
+          <div class="about__text reveal">
+            <h3 class="about__name">Hiroshi</h3>
+            <p class="about__role">Web Developer &amp; Marketer</p>
+            <p class="about__bio">
+              Webマーケティングの現場で20年間、会員制サービスの運営・チーム売上管理・顧客心理設計に携わってきました。
+              現在は職業訓練校でHTML/CSS・JavaScript・Pythonを学び、ドメイン知識とAIを掛け合わせたワークフロー設計ができるエンジニアを目指しています。
+            </p>
+            <p class="about__bio">
+              「作るだけ」でも「売るだけ」でもなく、両方の視点を持ったものづくりが自分の強みです。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== Skills ==================== -->
+    <section class="skills" id="skills" aria-label="スキル一覧">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-sub">技術スタック</p>
+        </div>
+        <ul class="skills__grid" aria-label="スキル">
+          <li class="skills__item reveal">
+            <span class="skills__name">HTML / CSS</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">JavaScript</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">jQuery</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">Python</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">Gemini API</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">Streamlit</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">Git / GitHub</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">Illustrator</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">Photoshop</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">Web Marketing</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">Notion</span>
+          </li>
+          <li class="skills__item reveal">
+            <span class="skills__name">Flask</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== Contact ==================== -->
+    <section class="contact" id="contact" aria-label="お問い合わせ">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-sub">お問い合わせ</p>
+        </div>
+        <div class="contact__inner reveal">
+          <p class="contact__lead">お仕事のご依頼・ご質問はお気軽にどうぞ。</p>
+          <a href="mailto:hello@example.com" class="contact__email">hello@example.com</a>
+          <ul class="contact__links" aria-label="SNSリンク">
+            <li>
+              <a href="#" class="contact__social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHubプロフィール（新しいタブで開く）">
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="#" class="contact__social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedInプロフィール（新しいタブで開く）">
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="#" class="contact__social-link" target="_blank" rel="noopener noreferrer" aria-label="X（Twitter）プロフィール（新しいタブで開く）">
+                X / Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== Footer ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="footer__copy">&copy; 2025 Hiroshi. All rights reserved.</p>
+        <nav aria-label="フッターナビゲーション">
+          <ul class="footer__nav">
+            <li><a href="#works" class="footer__link">Works</a></li>
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+            <li><a href="#contact" class="footer__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/works-data.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/observer.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
