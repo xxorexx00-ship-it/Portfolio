@@ -28,25 +28,10 @@ const items = WORKS.filter(w =>
 
       const subtitle = [work.categoryLabel, work.tags.join(' / ')].filter(Boolean).join(' ・ ');
 
-      li.innerHTML = `
+li.innerHTML = `
         <a href="TOP/index.html?id=${work.id}" class="wd-card__link" aria-label="${work.title}の詳細を見る">
           <div class="wd-card__visual">
-            <div class="wd-card__laptop">
-              <div class="laptop-frame">
-                <div class="laptop-frame__screen">
-                  <img src="../../${work.thumbnail}" alt="" loading="lazy" class="laptop-frame__img" />
-                </div>
-                <div class="laptop-frame__base"><span class="laptop-frame__notch"></span></div>
-              </div>
-            </div>
-            <div class="wd-card__phone">
-              <div class="phone-frame">
-                <div class="phone-frame__notch"></div>
-                <div class="phone-frame__screen">
-                  <img src="../../${work.thumbnail}" alt="" loading="lazy" class="phone-frame__img" />
-                </div>
-              </div>
-            </div>
+            <img src="../../${work.thumbnail}" alt="" loading="lazy" class="wd-card__img" />
           </div>
           <div class="wd-card__body">
             <h3 class="wd-card__title">${work.title}</h3>
