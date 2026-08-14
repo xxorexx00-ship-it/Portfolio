@@ -7,19 +7,19 @@
 const GALLERY_WORKS = [
   {
     id: 'art-001',
-    title: '作品タイトル 01',
-    tool: 'Photoshop',
-    tags: ['photoshop'],
-    description: '作品の解説テキストを入力してください。使用したテクニックや制作背景などを記載します。',
-    thumbnail: 'images/gallery/art-001.svg',
-  },
-  {
-    id: 'art-002',
-    title: '作品タイトル 02',
+    title: 'フェリカテクニカルアカデミーのバナー作成',
     tool: 'Illustrator',
     tags: ['illustrator'],
     description: '作品の解説テキストを入力してください。使用したテクニックや制作背景などを記載します。',
-    thumbnail: 'images/gallery/art-002.svg',
+    thumbnail: 'images/gallery/felica_banner.webp',
+  },
+  {
+    id: 'art-002',
+    title: '地図トレース',
+    tool: 'Illustrator',
+    tags: ['illustrator'],
+    description: 'フェリカテクニカルアカデミーまでのアクセスマップのトレース。',
+    thumbnail: 'images/gallery/map.webp',
   },
   {
     id: 'art-003',
@@ -31,11 +31,11 @@ const GALLERY_WORKS = [
   },
   {
     id: 'art-004',
-    title: '作品タイトル 04',
+    title: 'マッスルラウンジ',
     tool: 'Illustrator',
     tags: ['illustrator'],
-    description: '作品の解説テキストを入力してください。使用したテクニックや制作背景などを記載します。',
-    thumbnail: 'images/gallery/art-004.svg',
+    description: '架空のスポーツジムのロゴ、バナー作成',
+    thumbnail: 'images/gallery/massle01.webp',
   },
   {
     id: 'art-005',
@@ -47,10 +47,18 @@ const GALLERY_WORKS = [
   },
   {
     id: 'art-006',
-    title: '作品タイトル 06',
-    tool: 'Illustrator',
-    tags: ['illustrator'],
-    description: '作品の解説テキストを入力してください。使用したテクニックや制作背景などを記載します。',
-    thumbnail: 'images/gallery/art-006.svg',
+    title: 'LINEスタンプ作成　チンチラ',
+    tool: 'Photoshop',
+    tags: ['photoshop'],
+    description: '飼っているチンチラをモチーフにラインスタンプを数種作成',
+    thumbnail: 'images/gallery/チンチラいいね_0519.gif',
+  },
+    {
+    id: 'art-006',
+    title: 'LINEスタンプ作成　チンチラ',
+    tool: 'Photoshop',
+    tags: ['photoshop'],
+    description: '飼っているチンチラをモチーフにラインスタンプを数種作成',
+    thumbnail: 'images/gallery/チンチラNowloading_0519.gif',
   },
 ];
