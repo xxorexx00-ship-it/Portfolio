@@ -23,11 +23,16 @@ const GALLERY_WORKS = [
   },
   {
     id: 'art-003',
-    title: '作品タイトル 03',
+    title: '求人、採用バナー',
     tool: 'Photoshop',
     tags: ['photoshop'],
-    description: '作品の解説テキストを入力してください。使用したテクニックや制作背景などを記載します。',
-    thumbnail: 'images/gallery/art-003.svg',
+    description: `【授業課題】「パール楽器製造」の採用バナーを想定したデザイン演習作品です。（※既存ロゴのトレース学習およびグラフィック作成を目的とした制作）
+
+【ポイント】
+・ペンツールによるPearlロゴ（®含む）の精密なパストレース
+・2重の境界線（袋文字）とドロップシャドウによる高い視認性の確保
+・半透明シェイプを配置し、写真の迫力と文字の読みやすさを両立`,
+    thumbnail: 'images/gallery/pearl_banner.webp',
   },
   {
     id: 'art-004',
@@ -54,7 +59,7 @@ const GALLERY_WORKS = [
     thumbnail: 'images/gallery/チンチラいいね_0519.gif',
   },
     {
-    id: 'art-006',
+    id: 'art-007',
     title: 'LINEスタンプ作成　チンチラ',
     tool: 'Photoshop',
     tags: ['photoshop'],
