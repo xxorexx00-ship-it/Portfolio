@@ -44,11 +44,16 @@ const GALLERY_WORKS = [
   },
   {
     id: 'art-005',
-    title: '作品タイトル 05',
-    tool: 'Photoshop',
-    tags: ['photoshop'],
-    description: '作品の解説テキストを入力してください。使用したテクニックや制作背景などを記載します。',
-    thumbnail: 'images/gallery/art-005.svg',
+    title: '歳末＆お年賀セール',
+    tool: 'Illustrator',
+    tags: ['illustrator'],
+    description: `【授業課題】伝統文様のパターン作成と配色計画の演習作品です。
+
+【ポイント】
+・Illustratorによる「七宝（しっぽう）」柄パターンの自作とレイアウト
+・高年齢層をターゲットに、「懐かしのお菓子」をイメージした落ち着きのある和風カラーパレットを展開
+・梅鉢モチーフや和文字の配置による、歳末・お年賀らしいめでたさの演出`,
+    thumbnail: 'images/gallery/saimatsu_onenga.webp',
   },
   {
     id: 'art-006',
