@@ -40,7 +40,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '自作ツール「Loop Learning」を紹介する単独のWebページ。JavaScript実装の授業の一環として制作。',
     thumbnail: 'images/works/Loop_Learning.webp',
-    previewUrl: '/works/web-design/LoopLearning-showcase/index.html',
+    previewUrl: '../../../works/web-design/LoopLearning-showcase/index.html',
     localReady: false,
   },
   {
@@ -51,7 +51,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '「ジョジョの奇妙な冒険」の名言を紹介する架空のファンサイト。世界観を意識したビジュアル表現に挑戦。',
     thumbnail: 'images/works/jojo.webp',
-    previewUrl: '/works/web-design/jojo-fansite/index.html',
+    previewUrl: '../../../works/web-design/jojo-fansite/index.html',
     localReady: false,
   },
 
@@ -63,7 +63,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '家具、インテリアをテーマにした商品紹介風サイト。グリッドレイアウトで可変的な空間を表現。',
     thumbnail: 'images/works/grid_layout.webp',
-    previewUrl: '/works/web-design/grid-layout/index.html',
+    previewUrl: '../../../works/web-design/grid-layout/index.html',
     localReady: false,
   },
   {
@@ -74,7 +74,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '音楽レッスンをテーマにした架空のスクール紹介サイト。',
     thumbnail: 'images/works/Music_School.webp',
-    previewUrl: '/works/web-design/music-lessons/index.html',
+    previewUrl: '../../../works/web-design/music-lessons/index.html',
     localReady: false,
   },
     {
@@ -85,7 +85,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: 'クリップパス、ファビコン課題の習作',
     thumbnail: 'images/works/clip_path.webp',
-    previewUrl: '/works/web-design/clippath/index.html',
+    previewUrl: '../../../works/web-design/clippath/index.html',
     localReady: false,
   },
   {
@@ -96,7 +96,7 @@ const WORKS = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: '幕末・会津藩の白虎隊をテーマにした歴史解説サイト。和風デザインとアニメーションで当時の世界観を表現。',
     thumbnail: 'images/works/byakkotai.webp',
-    previewUrl: '/works/web-design/byakkotai/index.html',
+    previewUrl: '../../../works/web-design/byakkotai/index.html',
     localReady: false,
   },
 
