@@ -152,6 +152,25 @@ PC版では「clip-path」を用いたスタイリッシュな画像切り抜き
     localReady: false,
   },
 
+{
+  id: 'Photo gallery',
+  title: '山々四季（Photo gallery）',
+  categories: ['web-design'],
+  categoryLabel: 'Web Design',
+  tags: ['HTML', 'CSS', 'SVG Animation', 'jQuery'],
+  description: `職業訓練の授業において、SVGを使ったテキストアニメーション表現をメインテーマに制作したランディングページです[cite: 1, 2]。
+「山々の四季の豊かな表情を切り取る」というコンセプトのもと、写真が引き立つシンプルかつ上品なギャラリーサイトとして構成しました[cite: 2]。
+
+【SVGテキストアニメーション演出】
+ファーストビューでは、SVGロゴの輪郭線が描かれていく手書き風アニメーション（stroke-dasharray / stroke-dashoffset）を実装[cite: 1]。描画に合わせて文字の塗り（fill-opacity）が浮き上がる演出を取り入れ、背景の背景画像（.wrap）と連動したローディング演出として仕上げています[cite: 1]。
+
+【レスポンシブ設計・CSS工夫】
+CSS Gridを活用した柔軟なギャラリー配置や、aspect-ratio・object-fitによる画像のアスペクト比保持など、モダンなCSS手法を採用[cite: 1, 2]。スマホ表示時にはハンバーガーメニューとドロワーナビゲーションへ滑らかに切り替わるレスポンシブ対応を行っています[cite: 1, 2]。`,
+  thumbnail: 'images/works/mu_photogallrery.webp',
+  previewUrl: '../../../works/web-design/photo_gallery/index.html',
+  localReady: false,
+},
+
   {
     id: 'art-gallery',
     title: 'Art Gallery',
