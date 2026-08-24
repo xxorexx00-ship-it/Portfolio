@@ -991,7 +991,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 
 /* ─── 作成中バナー ─── */
-.construction-notice {
+/* .construction-notice {
   position: sticky;
   top: var(--nav-height);
   z-index: 80;
@@ -1003,7 +1003,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   text-align: center;
   letter-spacing: 0.04em;
   font-family: var(--font-jp);
-}
+} */
 
 /* ─── About サマリー ─── */
 .about__summary {
@@ -2879,3 +2879,4 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .gallery-modal__desc {
     white-space: pre-wrap;
 }
+
