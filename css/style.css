@@ -443,9 +443,10 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 9999;
   height: var(--nav-height);
   transition: background-color var(--transition-base), box-shadow var(--transition-base), backdrop-filter var(--transition-base);
+
 }
 
 .nav.is-scrolled {

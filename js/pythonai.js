@@ -33,7 +33,7 @@
         previewBtn = `<a href="${work.previewUrl}" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer" aria-label="${work.title}のプレビュー（新しいタブ）">Preview</a>`;
       } else {
         // ルート基準の相対パス（例: loop-learning/index.html）を works/python-ai/ から見た相対パスに補正
-        previewBtn = `<a href="../../${work.previewUrl}" class="btn btn--primary btn--sm" aria-label="${work.title}の詳細">Detail</a>`;
+        previewBtn = `<a href="../../${work.previewUrl}" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer" aria-label="...">Detail</a>`;
       }
 
       li.innerHTML = `

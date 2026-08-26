@@ -17,7 +17,7 @@ const WORKS = [
     categoryLabel: 'Python / AI Tool',
     tags: ['Python', 'AI', 'Notion'],
     description: 'PythonとAIを活用したITスキル学習ドリル。Notionと連携し、学習履歴の管理と出題のパーソナライズを実現。',
-    thumbnail: 'images/works/it-drill.svg',
+    thumbnail: 'images/works/hero-bg02.webp',
     previewUrl: 'loop-learning/index.html',
   },
 
@@ -30,6 +30,17 @@ const WORKS = [
     description: '業務改善・人材評価・新人教育の3軸でCSVを分析し、AIがアドバイスを出すWebアプリ。キャラクター選択UIやエラーハンドリングも実装済み。',
     thumbnail: 'images/works/biz-director.svg',
     previewUrl: '#',
+  },
+
+  {
+    id: 'pig-project',
+    title: 'pig-project',
+    categories: ['ai-tool', 'python'],
+    categoryLabel: 'AI Tool / Python',
+    tags: ['Python', 'YOLOv8x-seg', 'Flask'],
+    description: '一次面接で伺った企業の課題に対し、動作するプロトタイプを制作・検証。二次面接で「すでに仕組みが存在する」と判明した点も含め、コスト削減と浮いた時間の活用に関する思考プロセスを整理。',
+    thumbnail: 'pig_project/img/work02.webp',
+    previewUrl: 'pig_project/index.html',
   },
 
   {
@@ -154,7 +165,7 @@ PC版では「clip-path」を用いたスタイリッシュな画像切り抜き
 
 {
   id: 'Photo gallery',
-  title: '山々四季（Photo gallery）',
+  title: '山々四季',
   categories: ['web-design'],
   categoryLabel: 'Web Design',
   tags: ['HTML', 'CSS', 'SVG Animation', 'jQuery'],
@@ -168,6 +179,43 @@ PC版では「clip-path」を用いたスタイリッシュな画像切り抜き
 CSS Gridを活用した柔軟なギャラリー配置や、aspect-ratio・object-fitによる画像のアスペクト比保持など、モダンなCSS手法を採用[cite: 1, 2]。スマホ表示時にはハンバーガーメニューとドロワーナビゲーションへ滑らかに切り替わるレスポンシブ対応を行っています[cite: 1, 2]。`,
   thumbnail: 'images/works/mu_photogallrery.webp',
   previewUrl: '../../../works/web-design/photo_gallery/index.html',
+  localReady: false,
+},
+
+{
+  id: 'ra-men',
+  title: 'らぁ麺 至高の一杯',
+  categories: ['web-design'],
+  categoryLabel: 'Web Design',
+  tags: ['HTML', 'CSS', 'SVG Animation', 'jQuery'],
+  description: `【制作コンセプト・デザイン意図】
+世界観とブランドの表現
+
+ラーメンが持つ「職人のこだわり」や「重厚感・和の雰囲気」をWeb上で表現するため、単なる画像並びではなく、視覚的にインパクトのあるレイアウトを目指しました。
+
+伝統とモダンさの融合
+
+明朝体や縦書き（writing-mode: vertical-rl）といった和の要素に、現代的でシャープな幾何学レイアウトを掛け合わせることで、洗練されたWebデザインとしてまとめています。
+
+【実装上の工夫と技術的ポイント】
+clip-path（polygon）による独自の視覚リズム
+
+CSSの clip-path: polygon() を活用し、各カード（画像や縦書きテキスト）を斜めにカットした平行四辺形のシルエットに統一しました。長方形のグリッドに囚われないスタイリッシュな視覚効果を生み出しています。
+
+統一されたアスペクト比とレスポンシブな構造
+
+aspect-ratio: 3/7 を指定することで、全要素の縦長比率を厳密に保持。写真とテキストボックスが同じサイズ・同じ切り抜きパターンで並ぶよう計算し、画面全体の整列感と美しさを担保しています。
+
+視線誘導を意識したマイクロインタラクション
+
+初期状態では画像の透明度を抑え（opacity: 0.5）、ホバー時にパッと鮮明になる動きをつけることで、ユーザーが自然と写真に目を向けたくなるような心地よいホバー体験を設計しました。
+
+【意識したユーザー体験（UX）】
+情報の一貫性と没入感
+
+写真だけでなくテキストブロックも同じシルエットの中に収めることで、コンテンツ同士のノイズを減らし、ブランドの世界観に没入できる構成に仕上げています。`,
+  thumbnail: 'images/works/pig_project_thum.webp',
+  previewUrl: '../../../works/web-design/clippath2_ra-men/index.html',
   localReady: false,
 },
 
