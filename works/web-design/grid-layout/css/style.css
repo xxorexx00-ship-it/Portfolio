@@ -190,7 +190,7 @@ main h4{
     /* フォントサイズ、18pxほどに設定 fz18 */
     font-weight: 400;
     /* fw400 */
-    margin-bottom: 5px;
+    margin: 10px 5;
     /* 完成形を見ながら装飾は適宜設定 */
 }
 
@@ -260,7 +260,9 @@ main .container{
     .product setting
 ------------------------------------------*/
 
-
+h4{
+    margin: 10px 10px;
+}
 
 .product ul{
     display: grid;
@@ -294,6 +296,7 @@ main .container{
     letter-spacing: 0.07em;
     line-height: 1.8;
     /* 行間、文字間の設定 lh1.8 ls0.07emほど */
+    margin: 10px 10px;
 }
 
 /*-----------------------------------------
