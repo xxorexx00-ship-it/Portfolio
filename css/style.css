@@ -680,12 +680,28 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   
   /* 帯の見た目 */
   background-color: rgba(0, 0, 0, 0.556);
-  backdrop-filter: blur(1px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   border-radius: 8px;
   
   /* 背景画像の上に重ね、テキスト（z-index: 2）の下に敷く */
   z-index: 2; 
+}
+
+/* スマホ対応：画面幅768px以下のとき */
+@media (max-width: 768px) {
+  .hero::before {
+    /* 帯の幅をスマホ用に調整（必要に応じて） */
+    width: 90%;
+    max-width: 90%; 
+
+    /* 背景の黒を薄くする（0.556 → 0.25） */
+    background-color: rgba(0, 0, 0, 0.25);
+
+    /* ぼかし（すりガラス）効果を弱くする */
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+  }
 }
 
 .hero__inner {
