@@ -249,15 +249,15 @@ main h3{
 
 main h4{
     font-size: 18px;
-    margin-bottom: 5px;
     color: #555;
     font-weight: 400;
     /* 完成系を見ながら装飾は適宜設定 */
+        padding: 10px 10px;
 }
 
 h4{
-    font-size: 18px;
-    margin: 5px
+    font-size: 12px;
+    padding: 10px 10px;
     color: #555;
     font-weight: 400;
     /* 完成系を見ながら装飾は適宜設定 */
@@ -270,7 +270,7 @@ h4{
  .slogan{
     text-align: center;
     /* テキスト中央揃い */
-    padding: 60px 0 90px;
+    padding: 60px 0 50px;
     /* 内側余白、上40px、左右0、下70px程度で設定 */
 }
 
@@ -297,8 +297,8 @@ h4{
 ------------------------------------------*/
 
 .product{
-    padding-top: 120px;
-    margin-bottom: 180px;
+    padding-top: 30px;
+    margin-bottom: 90px;
     /* 次の下のブロックに余白を設定 */
 }
 
@@ -313,7 +313,7 @@ h4{
 .product ul{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 100px 15px;
+    gap: 50px 15px;
 }
 
 .product li .photo{
