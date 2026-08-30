@@ -1830,9 +1830,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   font-family: var(--font-jp);
   font-weight: 300;
   max-width: 760px;
+  margin-bottom: 1.25rem;
 }
 .about-page__lead-text + .about-page__lead-text {
   margin-top: 1.25rem;
+
 }
 
 /* ─── スキルカテゴリ ─── */
