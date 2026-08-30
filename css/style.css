@@ -679,7 +679,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   max-width: 45%; 
   
   /* 帯の見た目 */
-  background-color: rgba(0, 0, 0, 0.556);
+  background-color: rgba(0, 0, 0, 0.16);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border-radius: 8px;
@@ -699,8 +699,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     background-color: rgba(0, 0, 0, 0.25);
 
     /* ぼかし（すりガラス）効果を弱くする */
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
   }
 }
 
@@ -723,7 +723,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   letter-spacing: 0.18em;
   color: var(--color-text-muted);
   margin-bottom: 1.25rem;
-  color: #E8E8E8;
+  color: #ffffff;
 }
 .hero__title {
   font-size: clamp(0.7rem, 10vw, var(--text-4xl));
@@ -731,7 +731,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   letter-spacing: -0.04em;
   line-height: 1.2;
   margin-bottom: calc(var(--space-md) * 1.25);
-  color: #E8E8E8;
+  color: #ffffff;
 }
 .hero__sub {
   font-size: var(--text-base);
@@ -739,7 +739,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   font-family: var(--font-jp);
   font-weight: 300;
   margin-bottom: calc(var(--space-lg) * 1.0);
-  color: #E8E8E8;
+  color: #ffffff;
 }
 .hero__scroll {
   position: absolute;
