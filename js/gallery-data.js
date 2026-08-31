@@ -139,4 +139,57 @@ const GALLERY_WORKS = [
     thumbnail: 'images/gallery/Valentine_logo.webp',
   },
 
+  {
+    id: 'art-011',
+    title: '春のセールバナー',
+    tool: 'Photoshop',
+    tags: ['photoshop'],
+    description: `【制作目的】
+春の訪れやイベント感を訴求するECサイト向けのセールバナーの制作。
+
+【ポイント】
+・満開の桜の写真を大きく配置し、全体を柔らかなピンクのワントーンでまとめて春の華やかさと優しさを演出
+・「Spring Sale」や「50%OFF」の文字に白の境界線とドロップシャドウを施し、淡い背景の中でも文字の視認性をしっかり確保`,
+    thumbnail: 'images/gallery/spring_sale.webp',
+  },
+  {
+    id: 'art-012',
+    title: '夏のセールバナー',
+    tool: 'Photoshop',
+    tags: ['photoshop'],
+    description: `【制作目的】
+夏の暑い時期のショッピングやイベントに向けた、爽快感のあるセールバナーの制作。
+
+【ポイント】
+・抜けるような青い海と砂浜を背景に採用し、夏らしい開放的な雰囲気を表現
+・鮮やかなシアンブルーを基調に、複数層の境界線や影を組み合わせることで、波の上でも文字がくっきり浮き出る立体的な工夫`,
+    thumbnail: 'images/gallery/summer_sale.webp',
+  },
+  {
+    id: 'art-013',
+    title: '秋のセールバナー',
+    tool: 'Photoshop',
+    tags: ['photoshop'],
+    description: `【制作目的】
+秋の味覚や季節の深まりを訴求するECサイト向けのセールバナーの制作。
+
+【ポイント】
+・熟した柿や色づく落ち葉の写真を大胆にレイアウトし、深みのあるオレンジやブラウンで秋の落ち着きある雰囲気を表現
+・季節の雰囲気に馴染む温かみのあるカラーリングにしつつ、シャドウや境界線で文字を引き締めて視認性を維持`,
+    thumbnail: 'images/gallery/autumn_sale.webp',
+  },
+  {
+    id: 'art-014',
+    title: '冬のセールバナー',
+    tool: 'Photoshop',
+    tags: ['photoshop'],
+    description: `【制作目的】
+クリスマスや冬のホリデーシーズンに向けた、ワクワク感を高めるセールバナーの制作。
+
+【ポイント】
+・赤を基調とした背景にサンタクロースの衣装を着た子供の写真を配置し、冬のイベント感を演出
+・鮮やかな赤と白のコントラストを活かし、「12.10-12.24」や「MAX 50% OFF」のセール情報を力強くアピール`,
+    thumbnail: 'images/gallery/winter_sale.webp',
+  },
 ];
+
